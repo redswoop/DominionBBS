@@ -1,0 +1,19 @@
+
+PKUNZIP (R)    FAST!    Extract Utility    Version 2.04g  02-01-93
+Copr. 1989-1993 PKWARE Inc. All Rights Reserved. Shareware Version
+PKUNZIP Reg. U.S. Pat. and Tm. Off.
+
+þ 80486 CPU detected.
+þ EMS version 4.00 detected.
+þ XMS version 3.00 detected.
+
+Searching ZIP: DOM30.ZIP
+
+ Length  Method   Size  Ratio   Date    Time    CRC-32  Attr  Name
+ ------  ------   ----- -----   ----    ----   -------- ----  ----
+  29110  DeflatN  13644  54%  03-04-93  21:46  83dcd899 --w-  INSTALL.EXE
+   6906  DeflatN   2667  62%  03-03-93  23:21  277dbcfe --w-  DOM300.NFO
+    405  DeflatN    208  49%  03-03-93  23:09  5504352e --w-  FILE_ID.DIZ
+ 331455  DeflatN 322966   3%  03-04-93  21:22  6d7f6597 --w-  DOMDATA.POT
+ ------          ------  ---                                  -------
+ 367876          339485   8%                                        4
