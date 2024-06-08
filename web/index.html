@@ -16,13 +16,15 @@
     </p>
 
     <div id="fTelnetContainer"></div>
-    <script src="ftelnet.norip.xfer.min.js" id="fTelnetScript"></script>
+    <script src="ftelnet.norip.noxfer.js" id="fTelnetScript"></script>
     <script>
         var Options = new fTelnetOptions();
         Options.Hostname = "bbs.dominionbbs.com";
-        Options.ProxyHostname = 'bbs.dominionbbs.com';
-        Options.ProxyPort = 80;
+        Options.Port = 3333;
+        Options.ProxyHostname = "bbs.dominionbbs.com";
+        Options.ProxyPort = 8080;
         Options.ProxyPortSecure = 443;
+        Options.ForceWss = false
 
         var Client = new fTelnetClient('fTelnetContainer', Options);
     </script>
